@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  opacity: 50%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #011161;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.sphere{
+  transform: translate3d(50%, 50%, 0) translateY(-50px) translateX(400px);
+}
+
+.cylinder{
+  transform: translate3d(50%, 50%, 0) translateY(-50px) translateX(800px);
+}
+
+.cube{
+  transform: translate3d(50%, 50%, 0) translateY(-50px) translateX(600px);
+}
